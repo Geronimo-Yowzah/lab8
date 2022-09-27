@@ -2,10 +2,6 @@
 <html>
     <head><meta charset="utf8"></head>
     <body>
-    <form>
-        <input type="text" name="keyword">
-        <input type="submit" value="ค้นหา">
-    </form>
        <?php
         $stmt = $pdo->prepare("SELECT * FROM member");
         $stmt->execute();
